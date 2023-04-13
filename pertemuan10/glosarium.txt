@@ -4,3 +4,6 @@ untuk memanggil file dari tempat lain kita bisa menggunaka require atau bisa jug
 fungsinya sama namun beberapa ada sedikit perbedaan.
 
 
+<div style="position:absolute;top:0;bottom:0;left:0;right:0;background-color:black;font-size:100px;color:red;text-align:center;>HAHAHAH ANDA TELAH DI HACK!1!1!1!1!</div>
+
+<div style="position:absolute;top:0;bottom:0;left:0;right:0;background-color:black;font-size:100px;color:red;text-align:center;>HAHAHAH ANDA TELAH DI HACK!1!1!1!1!</div>

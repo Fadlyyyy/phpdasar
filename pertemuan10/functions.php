@@ -14,4 +14,29 @@ function query($query) {
 }
 
 
+
+
+
+function tambah($data) {
+    global $db;
+
+
+     $nama = htmlspecialchars($data["Nama"]);
+     $nim = htmlspecialchars($data["Nim"]);
+     $email = htmlspecialchars($data["Email"]);
+     $jurusan = htmlspecialchars($data["Jurusan"]);
+     $gambar = htmlspecialchars($data["Gambar"]);
+
+      //query insert data
+    $query = "INSERT INTO mahasiswa
+    VALUES
+    ('', '$nama','$nim','$email','$jurusan', '$gambar')
+    ";
+    mysqli_query($db, "$query");
+
+
+
+    return mysqli_affected_rows($db);
+}
+
 ?>
