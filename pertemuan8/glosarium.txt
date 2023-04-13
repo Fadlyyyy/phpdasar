@@ -1,0 +1,147 @@
+My SQL - database
+
+data
+data adalah representasi fakta yang ada didunia nyata.
+
+contohnya :
+nama seseorang
+buku
+nomor ktp
+harga barang
+foto
+dokumen
+vidio
+musik
+
+biasanya data itu saling terkait dan bisa dihubungkan oleh sesuatu hal..
+
+contohnya :
+buku 
+data2 terkait / buku pasti memiliki :
+judul buku
+pengarang
+penerbit
+pengarang
+harga buku
+dll
+
+contoh lain mahasiswa :
+nama
+nim 
+jurusan
+email
+dll
+
+problem 
+bagaimana kita menyimpan dan mengelola data ???
+
+pasti kita pernah menyimpan sebuah data, entah dengan cara di tulis di komputer ataupun di tulis manual
+secara sederhana, ataupun bisa menggunakan excel / spreedsheet
+
+namun seiring waktu, pertambahan data dan lain2  kita memiliki masalah, contohnya :
+-kapasitas
+-kecepatan akses / mencari dll
+-keamanan
+-duplikasi
+dan lain lain
+
+solusi??
+-skalabilitas (jika datanya bertambah, sistem atau aplikasinya mampu menangani hal tersebut  )
+-tersedia
+-aman / security
+-permanen
+dan lain lain
+
+solusinya database
+
+apa itu database ???
+
+banyak yang berasumsi database adalah :
+-oracle
+-MySql
+-Sql server
+-postgreeSQL
+-mongoDB
+
+list diatas bukanlah database
+
+list diatas adalah DBMS atau software untuk mengelola suatu database
+
+database itu sendiri merupakan data didalam DBMS (database management system)
+
+DBMS adalah software atau aplikasi yang bisa menampung banyak database didalamnya
+
+dbms mampu mengelola banyak database.
+
+jenis DBMS 
+-relational DBMS (rdbms)
+-hierarchical DBMS
+-network DBMS 
+-NoSql DBMS 
+tidak menggunakan sql 
+(mongodb)
+
+sql adalah bahasa untuk melakukan interaksi pada database
+
+
+dibeberapa DBMS
+-oracle
+-MySql
+-Sql server
+-postgreeSQL
+-mongoDB
+
+ada kata SQLnya, hal ini karena DBMS tersebut memiliki bahasa yang sama untuk berinteraksi pada datanya..
+
+MySQL termasuk kedalam relational dbms
+
+RDBMS pada saat membuat database nanti didalamnya pasti nanti kita akan membuat banyak table
+dan masing2 table bisa kita hubungkan dengan menggunakan sebuah relasi..
+
+
+tablenya mirip seperti yang ada di excel / spreedsheet 
+yang didalam table tersebut pastilah memiliki baris yang bernama record
+dan kolom yang bernama field..
+
+
+ada aturannya fieldnya apa dan tipe datanya apa..
+
+didalam sebuah table itu ada sebuah konsep yang bernama primary key
+tiap table harus memiliki primary key
+
+
+primary key adalah sebuah data, yang dapat mempresentasikan satu baris record secara unik.
+
+istilah :
+-field / column (kolom)
+-row
+-key 
+    -primary key
+    -foreign key
+-auto increment
+-relationship
+-normalization
+
+
+cara menghubungkan halaman dengan mysql dengan bahasa php :
+ekstensi MySql driver / ekstensi atau fungsi2 yang ada di php yang digunakan untuk memanipulasi database mySQL
+ekstensi MySqli i = improve dari mySQL 
+PDO (php data object) driver untuk terhubung kedalam database, namun dengan pdo kita bisa terhubung ke banyak database..
+contoh kasus, jika database yang kita buat itu berganti dari mySQLi menjadi postgreeSQL itu tidak banyak code yang banyak diubah..
+
+namun jika menggunakan my sqli sebagai ekstensinya dan database nya berubah, maka codingannya harus diubah semua..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

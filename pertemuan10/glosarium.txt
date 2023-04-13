@@ -1,0 +1,6 @@
+query = menampilkan data dari tabel
+
+untuk memanggil file dari tempat lain kita bisa menggunaka require atau bisa juga menggunaka include
+fungsinya sama namun beberapa ada sedikit perbedaan.
+
+
