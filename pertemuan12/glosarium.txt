@@ -1,0 +1,19 @@
+jika ingin mengurutkan data gunakan ASC
+asc lama ke baru.
+sedangkan DESC atau descending adalah mengurutkan data dari yang baru ke yang lama.
+
+
+form ada 2 buah atribut wajib 
+
+action berfungsi untuk alamat data akan dikirimkan, jika dikosongkan data akan dikirimkan kembali ke halamannya sendiri
+method menentukan apakah datanya akan tampil di url atau tidak
+jika ingin menampilkan datanya gunakan "get"
+jika tidak ingin menampilkan datanya gunakan "post"
+
+ini akan berpengaruh ke variable super globals mana yang akan menangani datanya..
+
+keyword LIKE pada sql berfungsi sebagai wildcard contoh 
+nama LIKE '$keyword%'
+
+
+
