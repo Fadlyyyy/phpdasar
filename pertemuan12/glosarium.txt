@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 jika ingin mengurutkan data gunakan ASC
 asc lama ke baru.
 sedangkan DESC atau descending adalah mengurutkan data dari yang baru ke yang lama.
@@ -14,6 +21,4 @@ ini akan berpengaruh ke variable super globals mana yang akan menangani datanya.
 
 keyword LIKE pada sql berfungsi sebagai wildcard contoh 
 nama LIKE '$keyword%'
-
-
 

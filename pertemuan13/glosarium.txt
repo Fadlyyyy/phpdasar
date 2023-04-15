@@ -1,0 +1,46 @@
+
+
+
+
+file handling = bagaimana cara kita menangani file dengan sintaks php
+
+<input type='file'..
+enctype = encoding type tipe encoding yang seperti apa yang harus kita gunakan untuk menangani file.
+
+$_FILES = variable super globals, dibuat khusus untuk menangani data file tadi.
+
+move_uploaded_file 
+
+
+gambar bisa dimasukkan kedalam database langsung
+
+tipe data blog = binary large object
+bisa menyimpan file kedalam my sql dalam bentuk file atau biner
+namun tidak recomended karena akan membuat ukuran database nya jadi sangat besar,
+dan juga akan membuat ukuran databasenya menjadi berat karena ukurannya besar
+lalu kita juga bekerja dengan file, file  tempatnya didalam directory 
+bukan didalam database. 
+
+jadi nantinya file akan diupload kedalam directory sedangkan yang akan diinsert ke database itu adalah tetap nama filenya..
+
+ada dua hal :
+1. file akan diupload kedalam directory
+2. nama gambarnya akan disimpan kedalam database sebagai string
+
+enctype="multipart/form-data"
+
+
+$_FILES 
+isi dari $_FILES adalah array associative namun array associativenya 2 dimensi
+dimensi 1 terdapat nama gambar yang didalamnya ada 5 buah element array.
+1. name (nama file)
+2. type (mengetahui apa yang diupload)
+3. tmp name (tempat penyimpanan sementara dari file yang diupload ) nama filenya move uploaded file fungsinya memindahkan file yang sudah diupload ke tempat yang diinginkan
+4. error 
+menghasilkan angka, jika 0 tidak artinya ada erorr namun selain 0 itu pasti ada erorr tergantung angkanya
+jika 4 tidak ada file yang diupload
+5. size dalam satuan byte
+jika ingin gambar yang diupload mempunyai batas maksimal ukuran.
+dimensi 2 terdapat
+
+beda dengan $_POST
