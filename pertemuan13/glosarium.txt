@@ -44,3 +44,19 @@ jika ingin gambar yang diupload mempunyai batas maksimal ukuran.
 dimensi 2 terdapat
 
 beda dengan $_POST
+
+
+expload adalah sebuah fungsi didalam php, yang berfungsi untuk memecah
+sebuah string menjadi array.
+memecahnya menggunakan delimiter
+
+$ekstensiGambar = end($ekstensiGambar);
+akan mengambil yang paling akhir..
+
+strtolower berfungsi memaksa untuk mengubah tulisan menjadi huruf kecil semua..
+
+
+in_array berfungsi untuk mengecek adakah sebuah string didalam sebuah array..
+(needle, haystack) mencari jarum didalam jerami.. 
+jarum = ekstensi gambar
+jerami = ekstensi gambar valid
