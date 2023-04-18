@@ -1,0 +1,11 @@
+login system
+-registrasi 
+-login
+-session (session adalah user yang sudah melalui proses login )
+-cookie (diperlukan ketika ingin membuat sistem login dengan fitur remember me )
+
+
+registrasi
+-tabel 'user'
+-ekripsi password
+
