@@ -9,3 +9,4 @@ registrasi
 -tabel 'user'
 -ekripsi password
 
+cek 
