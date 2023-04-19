@@ -1,0 +1,6 @@
+mysqli_num_rows berfungsi untuk menghitung ada berapa baris yang dikembalikan dari fungsi select
+jika ketemu nilainya 1 jika ada username didalam table user, lalu jika tidak ada nilainya 0
+
+password_verify berfungsi untuk mengecek sebuah string apakah sama dengan hashnya, parameternya ada 2 
+yang 1 string yang belum diacak dan yang 1 lagi string yang sudah diacak.
+
