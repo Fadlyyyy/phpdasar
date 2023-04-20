@@ -1,0 +1,47 @@
+Session
+session adalah sebuah mekanisme penyimpanan informasi kedalam variable
+agar bisa digunakan dilebih dari satu halaman.
+
+ketika kita membuat variable, nilai didalam variable itu hanya bisa dipakai disatu halaman itu saja..
+dia tidak bisa dipakai di halaman lain, kecuali kita kirimkan datanya atau kita kirimkan nilai didalam
+variable tersebut..
+
+ada 2 cara yaitu dengan menggunakan $_GET dan juga $_POST
+kita bisa menggunakan nilai dari variable tersebut asal datanya dikirimkan..
+
+
+jika dikirim menggunakan url kita bisa menggunakan $_GET 
+jika dikirimkan melalui form kira bisa menggunakan $_POST
+
+ada cara lain yaitu menggunakan session terlebih datanya bisa digunakan tidak hanya 2 halaman saja
+jika $_GET dan $_POST hanya 2 halaman saja dan juga tergantung kita akan mengirim data tersebut kemana...
+
+jika session berlaku disemua halaman...
+
+namun ada syaratnya..
+
+informasi pada session disimpan didalam server..
+jadi begitu kita menyimpan variable kedalam session,
+maka variable itu akan dibuat diserver.
+
+secara umum kita tidak perlu khawatir terkait keamanan datanya,
+karena datanya tersimpan didalam server..
+
+session sangat erat kaitannya dengan cookie
+
+session dan cookie sama2 sebuah informasi atau nilai yang bisa kita gunakan diberbagai halaman..
+perbedaan antara cookie dan session adalah..
+
+jika session disimpan didalam server jika cookie disimpan diclient, didalam browsernya..
+
+dengan mekanisme session, data atau informasi yang dikelola itu akan ditangani oleh
+sebuah variable global / variable super global yang namanya :  $_SESSION
+
+untuk mengisikan data kedalam $_SESSION kedalam super global ada syaratnya,
+kita harus jaklankan terlebih dahulu sebuah function yang bernama session_start()
+sebelum kita menuliskan sintaks htmlnya, pastikan diawal script phpnya
+jika kita mau menggunakan session, maka kita gunakan dulu session start..
+
+
+
+
