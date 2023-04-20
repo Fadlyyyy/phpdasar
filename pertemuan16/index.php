@@ -1,5 +1,12 @@
 <?php 
 
+session_start();
+
+if( !isset ($_SESSION["login"])) {
+    header("Location: login.php");
+    exit;
+} 
+
 require 'functions.php';
 $mahasiswa = query("SELECT * FROM mahasiswa ORDER BY id ASC");
 
@@ -7,6 +14,8 @@ $mahasiswa = query("SELECT * FROM mahasiswa ORDER BY id ASC");
 if (isset($_POST["cari"])) {
     $mahasiswa = cari($_POST["keyword"]);
 }
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -126,12 +135,30 @@ if (isset($_POST["cari"])) {
             background-color: #555;
         }
 
+        .logout-btn {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+.logout-btn:hover {
+    background-color: #555;
+}
+
+
     </style>
 </head>
 <body>
     
-
+    
     <h1>Daftar Mahasiswa</h1>
+
+
     <a href="tambah.php">Tambah data mahasiswa</a>
     <br><br>
 
@@ -168,5 +195,6 @@ if (isset($_POST["cari"])) {
             <?php $i++; ?>
             <?php  endforeach;  ?>
         </table>
+        <a href="local.php " class="logout-btn">Logout</a>
 </body>
 </html>

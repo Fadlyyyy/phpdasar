@@ -42,6 +42,12 @@ kita harus jaklankan terlebih dahulu sebuah function yang bernama session_start(
 sebelum kita menuliskan sintaks htmlnya, pastikan diawal script phpnya
 jika kita mau menggunakan session, maka kita gunakan dulu session start..
 
+untuk mengilangkan seluruh session gunakan session_destroy()
+
+gunakan session_start() untuk menjalankan session
+
+
+
 
 
 
