@@ -195,6 +195,6 @@ if (isset($_POST["cari"])) {
             <?php $i++; ?>
             <?php  endforeach;  ?>
         </table>
-        <a href="local.php " class="logout-btn">Logout</a>
+        <a href="logout.php " class="logout-btn">Logout</a>
 </body>
 </html>
