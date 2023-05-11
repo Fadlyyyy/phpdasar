@@ -1,0 +1,52 @@
+cookie
+
+cookie adalah mirip dengan session dia adalah informasi yang bisa diakses dimana saja dihalaman web.
+bedanya adalah cookie disimpan dibrowser atau client.
+client bisa memanipulasi cookienya dalam artian bisa :
+1. menambah cookie baru 
+2. bisa mengedit
+3. bisa mempush
+
+penggunaan cookie :
+1. bisa mengenali user (mirip seperti session)
+2. bisa digunakan untuk fitur shopping cart
+3. untuk personalisasi, untuk mengetahui preferensi atau perilaku dari seorang user.
+bisa dipakai misalnya untuk iklan.
+
+karena cookie disimpan dibrowser atau diclient dan client bisa memanipulasi hal tersebut,
+hal ini bisa menjadi celah keamanan.
+apalagi cookienya digunakan untuk melengkapi fitur login.
+
+kita akan mencoba menerapkan cookie untuk fasilitas remember me
+, digunakan agar usernya tidak perlu berulang kali login.
+fasilitas ini dibuat untuk memberikan kenyamanan pada usernya.
+apalagi usernya yakin jika dia menggunakan laptopnya sendiri contohnya..
+
+kecenderungannya kenyamanan berbanding terbalik dengan keamanan.
+
+$_COOKIE variable super global baru.
+
+$_COOKIE variable ini akan digunakan untuk mengakses nilai cookie didalam browser.
+
+untuk mengakses cookie perlu function yang bernama 
+setcookie();
+
+didalamnya kita bisa simpan beberapa parameter 
+1. key nya / nama cookienya
+2. valuenya / isinya apa??
+
+cookie ada waktu expirednya, cookie hanya berlaku 1 sesi saja
+jika browsernya diclose atau pc / laptop di restart maka sesinya akan hilang.
+
+kita bisa memberitahu browser, mau berapa lama expired dari cookienya dengan menambahkan 1 parameter lagi..
+
+disebelah valuenya..
+
+contoh setcookie('nama', 'fardli', time()+60); dia akan expired selama 60 detik/1 menit.
+
+
+
+
+
+
+sedangkan session disimpan di server.
