@@ -1,0 +1,12 @@
+live search
+
+live search dengan menggunakan ajax
+
+ajax (Asynchronus Javascript and XML)
+
+Asynchronus = tidak sinkron
+
+xmlhttprequest()
+object yang akan mengelola request menggunakan teknik ajax
+object tersebut sudah ada didalam kebanyakan browser.
+
